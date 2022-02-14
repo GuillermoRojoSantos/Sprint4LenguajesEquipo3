@@ -1,0 +1,34 @@
+1.mostrar los jugadores del segundo equipo
+
+for $equipo in doc("jugadores.xml")//equipo[@categoria="2"]
+return $equipo
+
+2.mostrar sólo los jugadores principales de todos equipos
+
+for $equipo in doc("jugadores.xml")//jugador[@categoria="principal"]
+return $equipo
+
+3.mostrar los jugadores con un sueldo mayor a 1500 euros
+
+for $equipo in doc("jugadores.xml")//jugadores/jugador[sueldo>1000]
+return $equipo/nombre
+
+4.mostrar el equipo cuyo ranking sea igual a 1
+
+for $equipo in doc("jugadores.xml")//equipo[ranking  ="1" ]
+return $equipo/nombre/text()
+
+5.mostrar sólo el nombre de los equipos y su ranking
+
+for $equipo in doc("jugadores.xml")//equipo/ranking
+return $equipo/nombre/text()
+
+6.mostrar los jugadores del segundo equipo
+
+for $equipo in doc("jugadores.xml")//equipo[@categoria="1"]
+return $equipo
+
+7.mostrar sólo los jugadores suplentes de todos equipos
+
+for $equipo in doc("jugadores.xml")//jugador[@categoria="suplentes"]
+return $equipo
