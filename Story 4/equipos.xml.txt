@@ -7,12 +7,12 @@
         <jugador categoria="principal">
             <nombre>1p</nombre>
             <edad>17</edad>
-            <sueldo>1000</sueldo>
+            <sueldo>1500</sueldo>
         </jugador>
         <jugador categoria="suplente">
             <nombre>1</nombre>
             <edad>17</edad>
-            <sueldo>1000</sueldo>
+            <sueldo>2000</sueldo>
         </jugador>
         <jugador categoria="suplente">
             <nombre>1</nombre>
@@ -37,7 +37,7 @@
         <jugador categoria="principal">
             <nombre>5p</nombre>
             <edad>17</edad>
-            <sueldo>1000</sueldo>
+            <sueldo>1200</sueldo>
         </jugador>
         <jugador categoria="principal">
             <nombre>6p</nombre>
@@ -47,7 +47,7 @@
     </jugadores>
     </equipo>
     <equipo categoria="2">
-    <nombre>equipo1</nombre>
+    <nombre>equipo2</nombre>
     <ranking>2</ranking>
     <jugadores>
         <jugador categoria="principal">
@@ -68,7 +68,7 @@
         <jugador categoria="principal">
             <nombre>10p</nombre>
             <edad>17</edad>
-            <sueldo>1000</sueldo>
+            <sueldo>850</sueldo>
         </jugador>
         <jugador categoria="principal">
             <nombre>11p</nombre>
@@ -83,7 +83,7 @@
         <jugador categoria="principal">
             <nombre>12p</nombre>
             <edad>17</edad>
-            <sueldo>1000</sueldo>
+            <sueldo>1625</sueldo>
         </jugador>
         <jugador categoria="suplente">
             <nombre>1</nombre>
@@ -93,7 +93,7 @@
     </jugadores>
     </equipo>
     <equipo categoria="3">
-    <nombre>equipo1</nombre>
+    <nombre>equipo3</nombre>
     <ranking>3</ranking>
     <jugadores>
         <jugador categoria="principal">
@@ -114,7 +114,7 @@
         <jugador categoria="principal">
             <nombre>15p</nombre>
             <edad>17</edad>
-            <sueldo>1000</sueldo>
+            <sueldo>1890</sueldo>
         </jugador>
         <jugador categoria="principal">
             <nombre>16p</nombre>
@@ -145,7 +145,7 @@
         <jugador categoria="principal">
             <nombre>20p</nombre>
             <edad>17</edad>
-            <sueldo>1000</sueldo>
+            <sueldo>3000</sueldo>
         </jugador>
         <jugador categoria="principal">
             <nombre>21p</nombre>
